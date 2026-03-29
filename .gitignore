@@ -1,0 +1,63 @@
+# --- Android Studio / Java / Kotlin ---
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# --- Python / ML ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# --- Data & ML Specifics ---
+# Ignoring all CSV files as requested
+*.csv
+
+# Ignoring large model files and logs
+*.h5
+*.pkl
+*.pth
+*.onnx
+*.log
+/data/
+/models/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
